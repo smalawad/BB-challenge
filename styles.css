@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+
+    --primary-color : #111827;
+    --secondary-color: #68737D;
+    --ternary-color: #F3F4F6;
+    --basic-color: #FFFFFF;
+}
+
+/* Header starts */
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#fff;
+    padding:2rem 9%;
+   
+}
+
+.nav-menu {
+    display: flex;
+    top: 1em;
+    margin-left: 1em;
+    justify-content: space-between;
+}
+
+.nav-menu img {
+    margin-right: 1em;
+}
+
+.nav-bar {
+    margin-top: 1rem;
+    margin-left: 1em;
+}
+
+a {
+    font-size: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.nav-start .nav-btn {
+    position: static;
+    width: 100px;
+    height: 30px;
+    left: 16px;
+    top: 10px;
+    background-color: var(--primary-color);
+    color: var(--basic-color);
+
+}
